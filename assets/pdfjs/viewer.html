@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Catálogo Andradinox</title>
+  <link rel="stylesheet" href="web/pdf_viewer.css" />
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #1a1a1a; }
+    #viewerContainer { position: absolute; inset: 0; overflow: auto; }
+    .pdfViewer .page { margin: 12px auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); }
+    #loadError {
+      display: none;
+      color: #ccc;
+      font-family: system-ui, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
+  <script src="build/pdf.mjs" type="module"></script>
+  <script src="web/pdf_viewer.mjs" type="module"></script>
+</head>
+<body tabindex="1">
+  <div id="viewerContainer">
+    <div id="viewer" class="pdfViewer"></div>
+  </div>
+  <p id="loadError">Não foi possível carregar o PDF.</p>
+  <script type="module">
+    const params = new URLSearchParams(window.location.search);
+    const fileParam = params.get('file') || '../../output/previews/Andradinox-Prototype-v0.1.pdf';
+    const fileUrl = new URL(fileParam, window.location.href).href;
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc = new URL('build/pdf.worker.mjs', window.location.href).href;
+
+    const eventBus = new pdfjsViewer.EventBus();
+    const linkService = new pdfjsViewer.PDFLinkService({
+      eventBus,
+      externalLinkTarget: pdfjsViewer.LinkTarget.BLANK,
+      externalLinkRel: 'noopener noreferrer',
+    });
+
+    const pdfViewer = new pdfjsViewer.PDFViewer({
+      container: document.getElementById('viewerContainer'),
+      eventBus,
+      linkService,
+    });
+    linkService.setViewer(pdfViewer);
+
+    eventBus.on('pagesinit', () => {
+      pdfViewer.currentScaleValue = 'page-width';
+      document.title = 'PAGESINIT:' + pdfViewer.pagesCount;
+    });
+
+    try {
+      const pdfDocument = await pdfjsLib.getDocument({ url: fileUrl }).promise;
+      document.title = 'DOC_LOADED:' + pdfDocument.numPages;
+      pdfViewer.setDocument(pdfDocument);
+      linkService.setDocument(pdfDocument, null);
+    } catch (err) {
+      document.getElementById('loadError').style.display = 'block';
+      console.error(err);
+    }
+  </script>
+</body>
+</html>
