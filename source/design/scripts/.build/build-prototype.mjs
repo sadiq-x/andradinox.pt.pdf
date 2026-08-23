@@ -579,7 +579,7 @@ function CategoryIntro({ id, bookmark, index, name, description, materials, appl
 
 // source/design/src/components/ProductOverview.jsx
 import React7 from "react";
-import { Page as Page5, View as View7, Text as Text7, Image as Image4, StyleSheet as StyleSheet7 } from "@react-pdf/renderer";
+import { Page as Page5, View as View7, Text as Text7, Image as Image4, Link as Link4, StyleSheet as StyleSheet7 } from "@react-pdf/renderer";
 import { jsx as jsx7, jsxs as jsxs7 } from "react/jsx-runtime";
 var s7 = StyleSheet7.create({
   page: { padding: 0, ...CHROME_PAD },
@@ -626,7 +626,7 @@ function ProductOverview({ id, bookmark, section, title, products }) {
         ] }),
         /* @__PURE__ */ jsxs7(View7, { style: s7.refRow, children: [
           /* @__PURE__ */ jsx7(Text7, { style: [s7.cardCharLabel, { fontSize: 7 }], children: "REF. a confirmar" }),
-          /* @__PURE__ */ jsx7(Text7, { style: s7.cta, children: "Ver produto \u2192" })
+          /* @__PURE__ */ jsx7(Link4, { src: p.href, style: s7.cta, children: "Ver produto \u2192" })
         ] })
       ] })
     ] }, p.slug)) })
@@ -635,7 +635,7 @@ function ProductOverview({ id, bookmark, section, title, products }) {
 
 // source/design/src/components/ProductDetail.jsx
 import React9 from "react";
-import { Page as Page6, View as View9, Text as Text9, Image as Image5, Link as Link4, StyleSheet as StyleSheet9 } from "@react-pdf/renderer";
+import { Page as Page6, View as View9, Text as Text9, Image as Image5, Link as Link5, StyleSheet as StyleSheet9 } from "@react-pdf/renderer";
 
 // source/design/src/components/TechTable.jsx
 import React8 from "react";
@@ -722,7 +722,7 @@ function ProductDetail({
         /* @__PURE__ */ jsxs9(View9, { style: s9.priceCta, children: [
           productQr ? /* @__PURE__ */ jsx9(View9, { style: s9.priceCtaQr, children: /* @__PURE__ */ jsx9(QRSvg, { qr: productQr, size: 40 }) }) : null,
           /* @__PURE__ */ jsx9(Text9, { style: s9.priceCtaText, children: "Pre\xE7os e disponibilidade: contactar a Andradinox" }),
-          productUrl ? /* @__PURE__ */ jsxs9(Link4, { src: productUrl, style: s9.priceCtaLink, children: [
+          productUrl ? /* @__PURE__ */ jsxs9(Link5, { src: productUrl, style: s9.priceCtaLink, children: [
             "Ver produto",
             "\n",
             "online \u2192"
@@ -790,7 +790,7 @@ function ComparisonPage({ id, bookmark, section, title, intro, columns, rows, he
 
 // source/design/src/components/ContactPage.jsx
 import React12 from "react";
-import { Page as Page9, View as View12, Text as Text12, Link as Link5, StyleSheet as StyleSheet12 } from "@react-pdf/renderer";
+import { Page as Page9, View as View12, Text as Text12, Link as Link6, StyleSheet as StyleSheet12 } from "@react-pdf/renderer";
 import { jsx as jsx12, jsxs as jsxs12 } from "react/jsx-runtime";
 var s12 = StyleSheet12.create({
   page: { padding: 0, backgroundColor: color.primaryDark },
@@ -827,19 +827,19 @@ function ContactPage({ websiteQr, contactQr }) {
           ] }),
           /* @__PURE__ */ jsxs12(View12, { style: s12.infoBlock, children: [
             /* @__PURE__ */ jsx12(Text12, { style: s12.infoLabel, children: "Telefone" }),
-            /* @__PURE__ */ jsx12(Link5, { src: `tel:${COMPANY.phone.replace(/[^+\d]/g, "")}`, style: s12.infoLink, children: COMPANY.phone })
+            /* @__PURE__ */ jsx12(Link6, { src: `tel:${COMPANY.phone.replace(/[^+\d]/g, "")}`, style: s12.infoLink, children: COMPANY.phone })
           ] }),
           /* @__PURE__ */ jsxs12(View12, { style: s12.infoBlock, children: [
             /* @__PURE__ */ jsx12(Text12, { style: s12.infoLabel, children: "Telem\xF3vel" }),
-            /* @__PURE__ */ jsx12(Link5, { src: `tel:${COMPANY.mobile.replace(/[^+\d]/g, "")}`, style: s12.infoLink, children: COMPANY.mobile })
+            /* @__PURE__ */ jsx12(Link6, { src: `tel:${COMPANY.mobile.replace(/[^+\d]/g, "")}`, style: s12.infoLink, children: COMPANY.mobile })
           ] }),
           /* @__PURE__ */ jsxs12(View12, { style: s12.infoBlock, children: [
             /* @__PURE__ */ jsx12(Text12, { style: s12.infoLabel, children: "Email" }),
-            /* @__PURE__ */ jsx12(Link5, { src: `mailto:${COMPANY.email}`, style: s12.infoLink, children: COMPANY.email })
+            /* @__PURE__ */ jsx12(Link6, { src: `mailto:${COMPANY.email}`, style: s12.infoLink, children: COMPANY.email })
           ] }),
           /* @__PURE__ */ jsxs12(View12, { style: s12.infoBlock, children: [
             /* @__PURE__ */ jsx12(Text12, { style: s12.infoLabel, children: "Website" }),
-            /* @__PURE__ */ jsx12(Link5, { src: COMPANY.websiteUrl, style: s12.infoLink, children: COMPANY.website })
+            /* @__PURE__ */ jsx12(Link6, { src: COMPANY.websiteUrl, style: s12.infoLink, children: COMPANY.website })
           ] })
         ] }),
         /* @__PURE__ */ jsxs12(View12, { style: s12.colQr, children: [
