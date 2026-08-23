@@ -48,12 +48,10 @@
 
     eventBus.on('pagesinit', () => {
       pdfViewer.currentScaleValue = 'page-width';
-      document.title = 'PAGESINIT:' + pdfViewer.pagesCount;
     });
 
     try {
       const pdfDocument = await pdfjsLib.getDocument({ url: fileUrl }).promise;
-      document.title = 'DOC_LOADED:' + pdfDocument.numPages;
       pdfViewer.setDocument(pdfDocument);
       linkService.setDocument(pdfDocument, null);
     } catch (err) {
