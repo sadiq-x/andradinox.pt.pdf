@@ -1,0 +1,864 @@
+[
+  {
+    "slug": "teia-inox-aisi-304",
+    "name": "Teia Inox AISI 304",
+    "category": "Teia Inox",
+    "sku": null,
+    "price_range": "34.50 € – 77.50 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/teia-inox-aisi-304/",
+    "description": "Tecido de construção, feito de fio de ferro de alta qualidade de fio de aço inoxidável. É resistente e durável. DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Telas de aberturas",
+      "Grelhas",
+      "Pára-faísca",
+      "Guardas dedo",
+      "Cestos",
+      "Prateleiras",
+      "Bandejas",
+      "Gaiolas",
+      "Desidratadores",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "AISI 304",
+      "largura_rolo": ["1.00 m", "1.25 m"],
+      "peso": null,
+      "tabela_precos": [
+        {"malha": 3, "abertura_mm": 7.142, "arame_mm": 1.20, "largura_rolo": "1.00 m", "preco_m2": "40.25 €"},
+        {"malha": 4, "abertura_mm": 5, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "40.25 €"},
+        {"malha": 5, "abertura_mm": 4, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "49.20 €"},
+        {"malha": 6, "abertura_mm": 3.169, "arame_mm": 0.80, "largura_rolo": "1.00 m", "preco_m2": "36.80 €"},
+        {"malha": 8, "abertura_mm": 2.387, "arame_mm": 0.70, "largura_rolo": "1.00 m", "preco_m2": "36.80 €"},
+        {"malha": 10, "abertura_mm": 1.926, "arame_mm": 0.60, "largura_rolo": "1.00 m", "preco_m2": "36.80 €"},
+        {"malha": 12, "abertura_mm": 1.65, "arame_mm": 0.60, "largura_rolo": "1.00 m", "preco_m2": "36.80 €"},
+        {"malha": 16, "abertura_mm": 1.336, "arame_mm": 0.40, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha": 20, "abertura_mm": 1.089, "arame_mm": 0.30, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha": 24, "abertura_mm": 0.80, "arame_mm": 0.30, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha": 30, "abertura_mm": 0.626, "arame_mm": 0.30, "largura_rolo": "1.00 m", "preco_m2": "40.25 €"},
+        {"malha": 40, "abertura_mm": 0.425, "arame_mm": 0.18, "largura_rolo": "1.00 m", "preco_m2": "40.25 €"},
+        {"malha": 60, "abertura_mm": 0.267, "arame_mm": 0.16, "largura_rolo": "1.00 m", "preco_m2": "40.25 €"},
+        {"malha": 80, "abertura_mm": 0.198, "arame_mm": 0.12, "largura_rolo": "1.00 m", "preco_m2": "46.00 €"},
+        {"malha": 100, "abertura_mm": 0.154, "arame_mm": 0.10, "largura_rolo": "1.00 m", "preco_m2": "46.00 €"},
+        {"malha": 120, "abertura_mm": 0.132, "arame_mm": 0.08, "largura_rolo": "1.00 m", "preco_m2": "46.00 €"},
+        {"malha": 200, "abertura_mm": 0.074, "arame_mm": 0.05, "largura_rolo": "1.00 m", "preco_m2": "62.00 €"},
+        {"malha": 230, "abertura_mm": 0.060, "arame_mm": 0.036, "largura_rolo": "1.25 m", "preco_m2": "62.00 €"},
+        {"malha": 320, "abertura_mm": 0.044, "arame_mm": 0.035, "largura_rolo": "1.00 m", "preco_m2": "62.00 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["3", "4", "5", "6", "8", "10", "12", "16", "20", "24", "30", "40", "60", "80", "100", "120", "200", "230", "320"]},
+      {"attribute": "Abertura entre arames (mm)", "values": ["0.044", "0.060", "0.074", "0.132", "0.154", "0.198", "0.267", "0.425", "0.626", "0.80", "1.089", "1.336", "1.65", "1.926", "2.387", "3.169", "4", "5", "7.142"]},
+      {"attribute": "Arame (mm)", "values": ["0.035", "0.036", "0.05", "0.08", "0.10", "0.12", "0.16", "0.18", "0.30", "0.40", "0.60", "0.70", "0.80", "1.00", "1.20"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m", "1.25 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/teia-inox-aisi-304/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/P_20190405_172515_vHDR_Auto.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site (REF: n.d.) - recorded as null.",
+      "The variant dropdown lists (malha/abertura/arame values scraped from the raw HTML select options) contain some duplicate/out-of-order entries (e.g. '20' and '3' appearing twice in the malha list) - this is a WooCommerce rendering artifact, not a real duplicate product option; the 19-row pricing table is the authoritative spec/price source.",
+      "'Largura do Rolo' shown on site as '1.00MT'/'1.25MT' - normalized to '1.00 m'/'1.25 m' assuming MT = metros (consistent with m² pricing unit used throughout); flagged for client confirmation.",
+      "Weight ('Peso') listed as 'n.d.' (not available) on site."
+    ]
+  },
+  {
+    "slug": "teia-inox-aisi-316",
+    "name": "Teia Inox AISI 316",
+    "category": "Teia Inox",
+    "sku": null,
+    "price_range": "57.50 € – 64.50 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/teia-inox-aisi-316/",
+    "description": "Tecido de construção, feito de fio de ferro de alta qualidade de fio de aço inoxidável. É resistente e durável. DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Telas de aberturas",
+      "Grelhas",
+      "Pára-faísca",
+      "Guardas dedo",
+      "Cestos",
+      "Prateleiras",
+      "Bandejas",
+      "Gaiolas",
+      "Desidratadores",
+      "Peneiras",
+      "Filtros"
+    ],
+    "specifications": {
+      "material": "AISI 316",
+      "largura_rolo": ["1.00 m"],
+      "peso": null,
+      "tabela_precos": [
+        {"malha": 4, "abertura_mm": 5.4, "arame_mm": 1.10, "largura_rolo": "1.00 m", "preco_m2": "59.80 €"},
+        {"malha": 5, "abertura_mm": 6, "arame_mm": null, "largura_rolo": "1.00 m", "preco_m2": "59.80 €"},
+        {"malha": 5, "abertura_mm": 4.1, "arame_mm": 0.90, "largura_rolo": "1.00 m", "preco_m2": "59.80 €"},
+        {"malha": 5, "abertura_mm": 3.43, "arame_mm": 0.80, "largura_rolo": "1.00 m", "preco_m2": "59.80 €"},
+        {"malha": 8, "abertura_mm": 2.4, "arame_mm": 0.70, "largura_rolo": "1.00 m", "preco_m2": "59.80 €"},
+        {"malha": 10, "abertura_mm": 1.9, "arame_mm": 0.60, "largura_rolo": "1.00 m", "preco_m2": "57.50 €"},
+        {"malha": 30, "abertura_mm": 0.54, "arame_mm": 0.30, "largura_rolo": "1.00 m", "preco_m2": "57.50 €"},
+        {"malha": 100, "abertura_mm": 0.154, "arame_mm": 0.10, "largura_rolo": "1.00 m", "preco_m2": "64.50 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["4", "5", "6", "8", "10", "30", "100"]},
+      {"attribute": "Abertura entre arames (mm)", "values": ["0.154", "0.54", "1.9", "2.4", "3.43", "4.1", "5.4"]},
+      {"attribute": "Arame (mm)", "values": ["0.10", "0.30", "0.60", "0.70", "0.80", "0.90", "1.10"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/teia-inox-aisi-316/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/9-Teia-inox-316-1.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site - recorded as null.",
+      "The 'Malha 6' row in the variant dropdown has no matching row in the visible pricing table (only 4, 5(x3), 8, 10, 30, 100 rows are shown) - possible incomplete table on the live site; flagged, not fabricated.",
+      "One row (malha 5, abertura 6mm) has no wire diameter value shown on site - recorded as null rather than guessed.",
+      "Weight ('Peso') listed as 'n.d.' on site."
+    ]
+  },
+  {
+    "slug": "teia-zincada",
+    "name": "Teia Zincada",
+    "category": "Teia Zincada",
+    "sku": null,
+    "price_range": "70.00 € – 120.00 €",
+    "price_unit_note": "Preço por rolo (1m x 10m)",
+    "url": "https://www.andradinox.pt/produto/teia-zincada/",
+    "description": null,
+    "applications": [],
+    "specifications": {
+      "material": "Zincado",
+      "rolo": "1.00 m x 10.00 m",
+      "peso": null,
+      "tabela_precos": [
+        {"malha": 4, "abertura_mm": 5.5, "arame": "20-0.90mm", "rolo": "1m x 10m", "preco_rolo": "70.00 €"},
+        {"malha": 5, "abertura_mm": 4.4, "arame": "22-0.70mm", "rolo": "1m x 10m", "preco_rolo": "70.00 €"},
+        {"malha": 6, "abertura_mm": 3.1, "arame": "22-0.70mm", "rolo": "1m x 10m", "preco_rolo": "70.00 €"},
+        {"malha": 8, "abertura_mm": 2.6, "arame": "22-0.70mm", "rolo": "1m x 10m", "preco_rolo": "70.00 €"},
+        {"malha": 10, "abertura_mm": 2.1, "arame": "23-0.60mm", "rolo": "1m x 10m", "preco_rolo": "90.00 €"},
+        {"malha": 12, "abertura_mm": 1.6, "arame": "25-0.50mm", "rolo": "1m x 10m", "preco_rolo": "90.00 €"},
+        {"malha": 16, "abertura_mm": 1.15, "arame": "27-0.40mm", "rolo": "1m x 10m", "preco_rolo": "100.00 €"},
+        {"malha": 20, "abertura_mm": 1.05, "arame": "31-0.25mm", "rolo": "1m x 10m", "preco_rolo": "100.00 €"},
+        {"malha": 24, "abertura_mm": 0.80, "arame": "31-0.25mm", "rolo": "1m x 10m", "preco_rolo": "100.00 €"},
+        {"malha": 28, "abertura_mm": 0.61, "arame": "30-0.30mm", "rolo": "1m x 10m", "preco_rolo": "120.00 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["4", "5", "6", "8", "10", "12", "16", "20", "24", "28"]},
+      {"attribute": "Abertura entre arames (mm)", "values": ["0.61", "0.80", "1.05", "1.15", "1.6", "2.1", "2.6", "3.1", "4.4", "5.5"]},
+      {"attribute": "Arame", "values": ["20-0.90mm", "22-0.70mm", "23-0.60mm", "25-0.50mm", "27-0.40mm", "30-0.30mm", "31-0.25mm"]},
+      {"attribute": "Rolo", "values": ["1.00 m x 10.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/teia-zincada/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/10-Teia-zincada.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "No narrative description or applications text present on this product page - only the specification/price table.",
+      "'Arame' column uses a two-number code (e.g. '20-0.90mm') whose meaning (likely a wire gauge/BWG number followed by mm diameter) is not explained on the site - kept verbatim, not interpreted.",
+      "SKU not shown on site.",
+      "TERMINOLOGY FLAG: this product is called 'Zincada' while the mosquito-mesh galvanized product (rede-mosquiteira-galvanizada) is called 'Galvanizada'. Both terms mean galvanized steel in Portuguese; the site uses them inconsistently across product lines. Needs client confirmation on whether these are the same material/process or intentionally different terms."
+    ]
+  },
+  {
+    "slug": "rede-electrosoldada-inox-aisi-304",
+    "name": "Rede Electrosoldada Inox AISI 304",
+    "category": "Rede Elect. INOX",
+    "sku": null,
+    "price_range": "15.00 € – 38.00 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/rede-electrosoldada-inox-aisi-304/",
+    "description": "DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Construção de gaiolas de animais",
+      "Obras de gabinete",
+      "Fabrico de contentores de arame e cestos",
+      "Grades",
+      "Paredes",
+      "Cercas de proteção",
+      "Grades de máquinas",
+      "Aplicações de construção ou outros usos industriais"
+    ],
+    "specifications": {
+      "material": "AISI 304",
+      "largura_rolo": ["1.00 m"],
+      "peso": null,
+      "tabela_precos": [
+        {"malha_mm": 6, "arame_mm": 0.65, "largura_rolo": "1.00 m", "preco_m2": "20.70 €"},
+        {"malha_mm": 6, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "38.00 €"},
+        {"malha_mm": 8, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha_mm": 10, "arame_mm": 0.80, "largura_rolo": "1.00 m", "preco_m2": "20.70 €"},
+        {"malha_mm": 10, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha_mm": 12, "arame_mm": 0.70, "largura_rolo": "1.00 m", "preco_m2": "15.00 €"},
+        {"malha_mm": 13, "arame_mm": 0.80, "largura_rolo": "1.00 m", "preco_m2": "15.00 €"},
+        {"malha_mm": 16, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "25.90 €"},
+        {"malha_mm": 16, "arame_mm": 1.50, "largura_rolo": "1.00 m", "preco_m2": "31.50 €"},
+        {"malha_mm": 20, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "25.90 €"},
+        {"malha_mm": 20, "arame_mm": 2.00, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"},
+        {"malha_mm": 25, "arame_mm": 1.50, "largura_rolo": "1.00 m", "preco_m2": "25.90 €"},
+        {"malha_mm": 25, "arame_mm": 2.00, "largura_rolo": "1.00 m", "preco_m2": "34.50 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["6mm", "8mm", "10mm", "12mm", "13mm", "16mm", "20mm", "25mm"]},
+      {"attribute": "Arame (mm)", "values": ["0.65", "0.70", "0.80", "1.00", "1.20", "1.50", "2.00"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-electrosoldada-inox-aisi-304/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Elect-Inox_1.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "'Arame' dropdown lists 1.20mm as an option but no 1.20mm row appears in the visible pricing table - flagged, not fabricated.",
+      "Weight ('Peso') listed as 'n.d.' on site."
+    ]
+  },
+  {
+    "slug": "rede-electrosoldada-inox-aisi-304-em-painel",
+    "name": "Rede Electrosoldada Inox AISI 304 – Em Painel",
+    "category": "Rede Elect. INOX",
+    "sku": null,
+    "price_range": "56.30 € – 154.08 €",
+    "price_unit_note": "Preço por painel",
+    "url": "https://www.andradinox.pt/produto/rede-electrosoldada-inox-aisi-304-em-painel/",
+    "description": "DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Construção de gaiolas de animais",
+      "Obras de gabinete",
+      "Fabrico de contentores de arame e cestos",
+      "Grades",
+      "Paredes",
+      "Cercas de proteção",
+      "Grades de máquinas",
+      "Aplicações de construção ou outros usos industriais"
+    ],
+    "specifications": {
+      "material": "AISI 304",
+      "peso": null,
+      "tabela_precos": [
+        {"malha": "20mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "109.80 €"},
+        {"malha": "25mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "101.30 €"},
+        {"malha": "30mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "83.00 €"},
+        {"malha": "40mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "58.00 €"},
+        {"malha": "40mm", "arame_mm": 2.85, "painel": "2500 x 1250mm", "m2": 3.125, "preco_painel": "92.81 €"},
+        {"malha": "40mm", "arame_mm": 2.85, "painel": "3000 x 1500mm", "m2": 4.5, "preco_painel": "132.75 €"},
+        {"malha": "40mm", "arame_mm": 4, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "97.00 €"},
+        {"malha": "50mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "56.30 €"},
+        {"malha": "50mm", "arame_mm": 4, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "85.50 €"},
+        {"malha": "50mm", "arame_mm": 4, "painel": "2500 x 1250mm", "m2": 3.125, "preco_painel": "94.06 €"},
+        {"malha": "50mm", "arame_mm": 5, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "124.00 €"},
+        {"malha": "100x11mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "110.00 €"},
+        {"malha": "15x105x15x15mm", "arame_mm": 2.85, "painel": "2400 x 1200mm", "m2": 2.88, "preco_painel": "154.08 €"},
+        {"malha": "100mm", "arame_mm": 5, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "85.00 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["100mm", "15x105x15x15mm", "5x15mm", "20mm", "25mm", "30mm", "40mm", "50mm"]},
+      {"attribute": "Arame (mm)", "values": ["2.85", "4.00", "5.00"]},
+      {"attribute": "Painel", "values": ["2000x1000mm", "2400x1200mm", "2500x1250mm", "3000x1500mm"]},
+      {"attribute": "Opção de compra", "values": ["Painel"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-electrosoldada-inox-aisi-304-em-painel/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Painel-Elect-Inox_2.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "Variant dropdown lists a 'malha 5x15mm' option that has no corresponding row in the visible pricing table (the closest match is '15x105x15x15mm') - flagged, not fabricated.",
+      "Weight ('Peso') listed as 'n.d.' on site."
+    ]
+  },
+  {
+    "slug": "rede-electrosoldada-inox-aisi-316",
+    "name": "Rede Electrosoldada Inox AISI 316",
+    "category": "Rede Elect. INOX",
+    "sku": null,
+    "price_range": "48.30 € – 59.50 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/rede-electrosoldada-inox-aisi-316/",
+    "description": "DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Construção de gaiolas de animais",
+      "Obras de gabinete",
+      "Fabrico de contentores de arame e cestos",
+      "Grades",
+      "Paredes",
+      "Cercas de proteção",
+      "Grades de máquinas"
+    ],
+    "specifications": {
+      "material": "AISI 316",
+      "largura_rolo": ["1.00 m"],
+      "peso": null,
+      "tabela_precos": [
+        {"malha_mm": 6, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "57.50 €"},
+        {"malha_mm": 10, "arame_mm": 1.00, "largura_rolo": "1.00 m", "preco_m2": "48.30 €"},
+        {"malha_mm": 20, "arame_mm": 2.00, "largura_rolo": "1.00 m", "preco_m2": "59.50 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["6mm", "10mm", "20mm"]},
+      {"attribute": "Arame (mm)", "values": ["1.00", "2.00"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-electrosoldada-inox-aisi-316/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/12-Rede-electrosoldada-inox-304.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "IMAGE FLAG: the only gallery image for this AISI 316 product is a file literally named '12-Rede-electrosoldada-inox-304.jpg' (i.e. filename says '304', not '316'). This is likely a reused/mislabeled photo on the live site (same-looking welded mesh close-up) rather than a true AISI 316 product photo. Recommend client supply/confirm a genuine AISI 316 photo before print.",
+      "Much shorter pricing table (3 rows) than AISI 304 equivalent (13 rows) - fewer mesh options offered for 316."
+    ]
+  },
+  {
+    "slug": "rede-electrosoldada-inox-aisi-316-em-painel",
+    "name": "Rede Electrosoldada Inox AISI 316 – Em Painel",
+    "category": "Rede Elect. INOX",
+    "sku": null,
+    "price_range": "104.60 € – 184.46 €",
+    "price_unit_note": "Preço por painel",
+    "url": "https://www.andradinox.pt/produto/rede-electrosoldada-inox-aisi-316-em-painel/",
+    "description": "DESCONTOS PARA QUANTIDADES SUPERIORES A 10M², CONTACTAR POR E-MAIL OU TELEFONE.",
+    "applications": [
+      "Construção de gaiolas de animais",
+      "Obras de gabinete",
+      "Fabrico de contentores de arame e cestos",
+      "Grades",
+      "Paredes",
+      "Cercas de proteção",
+      "Grades de máquinas"
+    ],
+    "specifications": {
+      "material": "AISI 316",
+      "peso": null,
+      "tabela_precos": [
+        {"malha": "20mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "146.70 €"},
+        {"malha": "30mm", "arame_mm": 2.85, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "105.80 €"},
+        {"malha": "40mm", "arame_mm": 4.00, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "177.00 €"},
+        {"malha": "50mm", "arame_mm": 4.00, "painel": "2000 x 1000mm", "m2": 2, "preco_painel": "104.60 €"},
+        {"malha": "15x105x15x15mm", "arame_mm": 2.85, "painel": "2400 x 1200mm", "m2": 2.88, "preco_painel": "184.46 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["20mm", "30mm", "40mm", "50mm", "15x105x15x15mm"]},
+      {"attribute": "Arame (mm)", "values": ["2.85", "4.00"]},
+      {"attribute": "Painel", "values": ["2000x1000mm", "2400x1200mm"]},
+      {"attribute": "Opção de compra", "values": ["Painel"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-electrosoldada-inox-aisi-316-em-painel/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/P_20190405_171615_vHDR_Auto.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-inox-aisi-304",
+    "name": "Rede Mosquiteira Inox AISI 304",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "9.20 € – 34.50 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-inox-aisi-304/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "AISI 304",
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.00 m", "preco_m2": "9.20 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.20 m", "preco_m2": "9.20 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.50 m", "preco_m2": "17.25 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "2.00 m", "preco_m2": "17.25 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["16,51", "8x14"], "note": "raw dropdown values as scraped - inconsistent with the '18x14' shown in the pricing table, see notes"},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm", "1.293mm"]},
+      {"attribute": "Arame", "values": ["0.25mm", "0.28mm"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m", "1.20 m", "1.50 m", "2.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-inox-aisi-304/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Inox_1.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "DATA INCONSISTENCY: the raw variant dropdowns include values ('16,51' malha, '1.293mm' abertura, '0.25mm' arame) that do not match any row in the visible 4-row pricing table (which only shows malha 18x14 / abertura 1.1x1.35mm / arame 0.28mm at four roll widths). This suggests the WooCommerce variation data on the live site is broader/messier than what's displayed in the visible table - flagged for client clarification rather than guessed at.",
+      "Price range top end (34.50 €) does not appear in the 4 visible table rows either (max shown is 17.25 €) - likely additional hidden variants exist. Flagged."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-inox-aisi-316",
+    "name": "Rede Mosquiteira Inox AISI 316",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "17.25 € – 46.00 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-inox-aisi-316/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "AISI 316",
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.00 m", "preco_m2": "17.25 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.20 m", "preco_m2": "17.25 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "1.50 m", "preco_m2": "23.00 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "largura_rolo": "2.00 m", "preco_m2": "23.00 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m", "1.20 m", "1.50 m", "2.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-inox-aisi-316/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/2-Mosquiteira-inox-316.jpg", "role": "hero"},
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-inox-aisi-316/gallery-2.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Inox_2.jpg", "role": "gallery"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "Price range top end (46.00 €) exceeds the 4 visible table rows (max shown 23.00 €) - possibly hidden/additional variants not rendered in the visible table. Flagged, not fabricated.",
+      "SHARED IMAGE FLAG: gallery-2.jpg (Mosquiteira-Inox_2.jpg) is the exact same file used as gallery-2 on rede-mosquiteira-inox-brico - same stock photo reused across two different product listings."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-aluminio",
+    "name": "Rede Mosquiteira Alumínio",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "76.50 € – 114.75 €",
+    "price_unit_note": "Preço por rolo completo (30 m); tabela interna mostra preço unitário de 2.55 €/m² (30m x largura da bobine = área total do rolo)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-aluminio/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Alumínio",
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "rolo": "1.00m x 30.00m", "preco_m2": "2.55 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "rolo": "1.20m x 30.00m", "preco_m2": "2.55 €"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "rolo": "1.50m x 30.00m", "preco_m2": "2.55 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.00m x 30.00m", "1.20m x 30.00m", "1.50m x 30.00m"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-aluminio/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/3-Mosquiteira-alumínio.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "PRICE MATH NOTE (not on-site text, derived for clarity): the per-m² unit price shown in the table (2.55 €) multiplied by roll area (width x 30m) reproduces the displayed price range exactly: 1.00m x 30m = 30m² x 2.55€ = 76.50€ (matches range low end); 1.50m x 30m = 45m² x 2.55€ = 114.75€ (matches range high end). This is Claude's arithmetic inference to explain the displayed numbers, NOT text taken from the site - flag for designer/client to confirm actual per-roll vs per-m² pricing presentation before print."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-fibra-anti-fogo",
+    "name": "Rede Mosquiteira Fibra Anti-Fogo",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "35.10 € – 108.00 €",
+    "price_unit_note": "Preço por rolo completo (o rolo varia de 15 a 30 m); tabela interna mostra preço unitário de 1.17 €/m² ou 1.80 €/m²",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-fibra-anti-fogo/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Fibra Anti-Fogo",
+      "cor": ["Cinza", "Branco"],
+      "tabela_precos_raw": "Malha 18x14, abertura 1.1x1.35mm, arame 0.28mm; rolos disponíveis em 1.0MTx30MT, 1.20MTx30MT, 1.50MTx15MT, 1.50MTx30MT, 1.60MTx30MT, 2.0MTx15MT, 2.0MTx30MT; preços por m² de 1.17€ ou 1.80€ consoante a largura"
+    },
+    "variants": [
+      {"attribute": "Cor", "values": ["Branco", "Cinza"]},
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.00m x 30.00m", "1.20m x 30.00m", "1.50m x 15.00m", "1.50m x 30.00m", "1.60m x 30.00m", "2.00m x 15.00m", "2.00m x 30.00m"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-fibra-anti-fogo/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/6-Mosquiteira-fibra.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "The exact per-variant price table (which roll width/length maps to 1.17€ vs 1.80€ per m²) was not cleanly extractable as a row-by-row table via the fetch tool - recorded as a raw summary string in 'tabela_precos_raw' rather than fabricating a row structure. Recommend re-verifying variant pricing directly with client or via live site checkout before printing exact per-SKU prices.",
+      "Material named 'Fibra Anti-Fogo' (fire-resistant fiber) on-site; likely fiberglass mesh but the site does not explicitly say 'fibra de vidro' - kept as site's own term, not assumed."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-galvanizada",
+    "name": "Rede Mosquiteira Galvanizada",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "111.00 €",
+    "price_unit_note": "Preço por rolo (1m x 30m); tabela interna mostra 3.70 €/m²",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-galvanizada/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros"
+    ],
+    "specifications": {
+      "material": "Galvanizado",
+      "tabela_precos": [
+        {"malha": "16 x 16", "abertura_mm": 1.32, "arame_mm": 0.28, "rolo": "1.00m x 30.00m", "preco_m2": "3.70 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["16x16"]},
+      {"attribute": "Abertura entre fios", "values": ["1.32mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.00m x 30.00m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-galvanizada/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/4-Mosquiteira-galvanizada.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "Only one variant/roll size available for this product (unlike most other mosquiteira products which offer several roll widths).",
+      "TERMINOLOGY FLAG: this product is called 'Galvanizada' while the wire-cloth 'teia' product (teia-zincada) and barbed wire product (arame-farpado-zincado) are called 'Zincada/Zincado'. Both terms mean galvanized in Portuguese; site uses them inconsistently. Needs client confirmation on whether the underlying process/material is the same."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-nylon-pvc",
+    "name": "Rede Mosquiteira Nylon (PVC)",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "18.00 €",
+    "price_unit_note": "Preço por rolo (1m x 30m) - unidade não explicitamente indicada como m² ou rolo completo, ver nota",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-nylon-pvc/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Nylon (PVC)",
+      "cor": ["Branco", "Verde"],
+      "rolo": "1.00m x 30.00m",
+      "peso": null
+    },
+    "variants": [
+      {"attribute": "Cor", "values": ["Branco", "Verde"]},
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.00m x 30.00m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-nylon-pvc/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Nylon_2.jpg", "role": "hero"},
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-nylon-pvc/gallery-2.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Nylon_1.jpg", "role": "gallery"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "PRICE ANOMALY FLAG: €18.00 for a full 1m x 30m roll works out to €0.60/m², far lower than every other mosquiteira product (which range roughly €1.17-€3.70/m² for the raw material, before markup). This may be a pricing error on the live site, a legacy/clearance price, or this product may in fact be quoted per-linear-meter rather than per-roll. Could not confirm via WebFetch which basis applies - recommend verifying this specific price with the client before using it in the catalogue.",
+      "No full pricing/specification table was extractable for this product beyond 'Peso: n.d.' and the single price - the detailed row-by-row table other products have was not present/rendered for this product."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-latao",
+    "name": "Rede Mosquiteira Latão",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "33.00 €",
+    "price_unit_note": "Preço por m² (Metro²)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-latao/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Latão",
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "fio_mm": 0.28, "rolo": "1.00m x 15.00m", "preco_m2": "33.00 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Largura do Rolo", "values": ["1.00 m"]},
+      {"attribute": "Opção de compra", "values": ["Metro²"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-latao/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Latão_2.jpg", "role": "hero"},
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-latao/gallery-2.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Latão_1.jpg", "role": "gallery"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "Only one variant/price combination available for this product."
+    ]
+  },
+  {
+    "slug": "arame-inox-brico",
+    "name": "Arame Inox Brico",
+    "category": "Arame",
+    "sku": null,
+    "price_range": "3.90 € – 9.50 €",
+    "price_unit_note": "Preço por rolo",
+    "url": "https://www.andradinox.pt/produto/arame-inox-brico/",
+    "description": "Nós oferecemos uma vasta gama de produtos de arame, fio de ferro galvanizado principalmente, arame galvanizado mergulhado a quente, arame recozido, fio de ferro preto, fio de corte. A maioria é utilizado em construção.",
+    "applications": [],
+    "specifications": {
+      "material": "Aço Inoxidável (grau AISI não especificado no site)",
+      "peso": null,
+      "tabela_precos": [
+        {"descricao": "Arame Inox 1.00 mm x 7 ml", "preco_rolo": "3.90 €"},
+        {"descricao": "Arame Inox 1.50 mm x 15 ml", "preco_rolo": "9.50 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Diâmetro", "values": ["1.00mm", "1.50mm"]},
+      {"attribute": "Comprimento", "values": ["7ml", "15ml"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/arame-inox-brico/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/40-Arame-inox-brico.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "No applications/uses text present on this product page.",
+      "'ml' abbreviation kept verbatim (commonly 'metro linear' / linear meter in PT construction trade) rather than expanded, since not explicitly defined on site.",
+      "Product name includes 'Brico' but this product was NOT listed on the site's 'Brico' category archive page (only 3 mosquiteira products were) - it is categorized under 'Arame' only per its breadcrumb. Flagged as a naming/categorization inconsistency."
+    ]
+  },
+  {
+    "slug": "arame-farpado-plastificado",
+    "name": "Arame Farpado Plastificado",
+    "category": "Arame",
+    "sku": null,
+    "price_range": "15.55 € – 53.30 €",
+    "price_unit_note": "Preço por rolo",
+    "url": "https://www.andradinox.pt/produto/arame-farpado-plastificado/",
+    "description": "Nós oferecemos uma vasta gama de produtos de arame, fio de ferro galvanizado principalmente, arame galvanizado mergulhado a quente, arame recozido, fio de ferro preto, fio de corte. A maioria é utilizado em construção.",
+    "applications": [],
+    "specifications": {
+      "material": "Arame Galvanizado Plastificado",
+      "diametro": "14/11",
+      "peso": null,
+      "tabela_precos": [
+        {"descricao": "Arame farpado plastificado 14/11 x 50 ml", "preco_rolo": "15.55 €"},
+        {"descricao": "Arame farpado plastificado 14/11 x 100 ml", "preco_rolo": "23.10 €"},
+        {"descricao": "Arame farpado plastificado 14/11 x 250 ml", "preco_rolo": "53.30 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Diâmetro", "values": ["14/11"]},
+      {"attribute": "Comprimento", "values": ["50ml", "100ml", "250ml"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/arame-farpado-plastificado/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/43-Arame-farpado.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "No applications/uses text present on this product page.",
+      "'14/11' diameter code kept verbatim - likely a wire gauge notation, not explained on site.",
+      "SHARED IMAGE FLAG: this product uses the exact same photo file (43-Arame-farpado.jpg) as arame-farpado-zincado - a plastic-coated wire and a plain galvanized wire are visually different products but the site shows one generic barbed-wire photo for both. Flag for client - a real distinct photo of the plastic-coated (usually black/green coated) wire is recommended for the catalogue."
+    ]
+  },
+  {
+    "slug": "arame-farpado-zincado",
+    "name": "Arame Farpado Zincado",
+    "category": "Arame",
+    "sku": null,
+    "price_range": "11.96 € – 40.05 €",
+    "price_unit_note": "Preço por rolo",
+    "url": "https://www.andradinox.pt/produto/arame-farpado-zincado/",
+    "description": "Nós oferecemos uma vasta gama de produtos de arame, fio de ferro galvanizado principalmente, arame galvanizado mergulhado a quente, arame recozido, fio de ferro preto, fio de corte. A maioria é utilizado em construção.",
+    "applications": [],
+    "specifications": {
+      "material": "Zincado",
+      "diametro": "14/15",
+      "peso": null,
+      "tabela_precos": [
+        {"descricao": "Arame farpado zincado 14/15 x 50 ml", "preco_rolo": "11.96 €"},
+        {"descricao": "Arame farpado zincado 14/15 x 100 ml", "preco_rolo": "18.25 €"},
+        {"descricao": "Arame farpado zincado 14/15 x 250 ml", "preco_rolo": "40.05 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Diâmetro", "values": ["14/15"]},
+      {"attribute": "Comprimento", "values": ["50ml", "100ml", "250ml"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/arame-farpado-zincado/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/43-Arame-farpado.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "No applications/uses text present on this product page.",
+      "The category archive page ('Arame') displayed this product's price range as '€0.00 – €40.05' (a €0.00 lower bound), which does not match the actual lowest listed row price of €11.96 - likely a WooCommerce price-range display bug on the live site (possibly an empty/zero-priced hidden variant). Recorded the correct visible range (€11.96 – €40.05) from the product page itself here, but flagged the site's own inconsistency for the client.",
+      "SHARED IMAGE FLAG: uses the exact same photo file as arame-farpado-plastificado - see that product's notes."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-inox-brico",
+    "name": "Rede Mosquiteira Inox Brico",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "48.30 €",
+    "price_unit_note": "Preço por rolo, sem IVA (1.20m x 5m)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-inox-brico/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Aço Inoxidável (grau AISI não especificado no site)",
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "rolo": "1.20m x 5.00m", "preco_rolo_sem_iva": "48.30 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.20m x 5.00m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-inox-brico/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/07/Mosquiteira-inox-5x12mt.jpg", "role": "hero"},
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-inox-brico/gallery-2.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-Inox_2.jpg", "role": "gallery"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "PRICE FLAG: this product's price table explicitly labels the price 'Preço/rolo sem IVA' (price per roll, excluding VAT/IVA). None of the other products' pricing labels in this dataset mention VAT status either way - it is unclear whether all other listed prices on the site are also ex-VAT or actually include VAT. This is an important pricing-basis question to resolve with the client before printing any prices in the catalogue.",
+      "Smaller retail-pack roll size (1.20m x 5m) than the bulk/wholesale version of the same material (rede-mosquiteira-inox-aisi-304/316), consistent with this being the 'Brico' (DIY/retail) small-pack line.",
+      "SHARED IMAGE FLAG: gallery-2.jpg is the same file used on rede-mosquiteira-inox-aisi-316 - see that product's notes."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-aluminio-brico",
+    "name": "Rede Mosquiteira Alumínio Brico",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "15.30 €",
+    "price_unit_note": "Preço por rolo, sem IVA (1.20m x 5m)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-aluminio-brico/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Alumínio",
+      "peso": null,
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "arame_mm": 0.28, "rolo": "1.20m x 5.00m", "preco_rolo_sem_iva": "15.30 €"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.20m x 5.00m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-aluminio-brico/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/07/Mosquiteira-alumnio-5x12mt.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "PRICE FLAG: labeled 'Preço/rolo sem IVA' (ex-VAT) - see the same note on rede-mosquiteira-inox-brico regarding VAT-basis consistency across the catalogue.",
+      "Source image filename is 'Mosquiteira-alumnio-5x12mt.jpg' (missing the í - 'alumnio' instead of 'alumínio') - a typo in the site's own filename, kept verbatim as the source URL; local file renamed to hero.jpg for consistency."
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira-fibra-anti-fogo-brico",
+    "name": "Rede Mosquiteira Fibra Anti-Fogo Brico",
+    "category": "Rede Mosquiteira",
+    "sku": null,
+    "price_range": "9.36 €",
+    "price_unit_note": "Preço por rolo, sem IVA (1.20m x 5m)",
+    "url": "https://www.andradinox.pt/produto/rede-mosquiteira-fibra-anti-fogo-brico/",
+    "description": "A Rede Mosquiteira é fabricada com materiais do tipo: fio de aço inoxidável, arame galvanizado (H.D), fio de PVC (nylon), arame de alumínio, fibra antifogo, bronze, latão, entre outros.",
+    "applications": [
+      "Fins industriais",
+      "Portas e janelas",
+      "Guardas de aves",
+      "Peneiras",
+      "Filtros",
+      "Outras finalidades"
+    ],
+    "specifications": {
+      "material": "Fibra Anti-Fogo",
+      "cor": ["Cinza", "Branco"],
+      "tabela_precos": [
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "fio_mm": 0.28, "rolo": "1.20m x 5.00m", "preco_rolo_sem_iva": "9.36 €", "cor": "Cinza"},
+        {"malha": "18 x 14", "abertura_mm": "1.1 x 1.35", "fio_mm": 0.28, "rolo": "1.20m x 5.00m", "preco_rolo_sem_iva": "9.36 €", "cor": "Branco"}
+      ]
+    },
+    "variants": [
+      {"attribute": "Cor", "values": ["Branco", "Cinza"]},
+      {"attribute": "Malha", "values": ["18x14"]},
+      {"attribute": "Abertura entre arames", "values": ["1.1x1.35mm"]},
+      {"attribute": "Arame", "values": ["0.28mm"]},
+      {"attribute": "Rolo", "values": ["1.20m x 5.00m"]},
+      {"attribute": "Opção de compra", "values": ["Rolo"]}
+    ],
+    "images": [
+      {"local_path": "/Users/sadiq/Desktop/andradinox.pt/assets/products/rede-mosquiteira-fibra-anti-fogo-brico/hero.jpg", "source_url": "https://www.andradinox.pt/wp-content/uploads/2019/04/Mosquiteira-fibra-5x12mt.jpg", "role": "hero"}
+    ],
+    "notes": [
+      "SKU not shown on site.",
+      "PRICE FLAG: labeled 'Preço/rolo sem IVA' (ex-VAT) - see VAT-basis note on rede-mosquiteira-inox-brico."
+    ]
+  }
+]

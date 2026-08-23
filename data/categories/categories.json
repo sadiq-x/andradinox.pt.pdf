@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "teia-inox",
+    "name_pt": "Teia Inox",
+    "url": "https://www.andradinox.pt/categoria-produto/teiainox/",
+    "description": null,
+    "product_slugs": [
+      "teia-inox-aisi-304",
+      "teia-inox-aisi-316"
+    ]
+  },
+  {
+    "slug": "teia-zincada",
+    "name_pt": "Teia Zincada",
+    "url": "https://www.andradinox.pt/categoria-produto/teia-zincada/",
+    "description": null,
+    "product_slugs": [
+      "teia-zincada"
+    ]
+  },
+  {
+    "slug": "rede-electrosoldada-inox",
+    "name_pt": "Rede Elect. INOX",
+    "url": "https://www.andradinox.pt/categoria-produto/rede-elect-inox/",
+    "description": null,
+    "product_slugs": [
+      "rede-electrosoldada-inox-aisi-304",
+      "rede-electrosoldada-inox-aisi-304-em-painel",
+      "rede-electrosoldada-inox-aisi-316",
+      "rede-electrosoldada-inox-aisi-316-em-painel"
+    ]
+  },
+  {
+    "slug": "rede-mosquiteira",
+    "name_pt": "Rede Mosquiteira",
+    "url": "https://www.andradinox.pt/categoria-produto/rede-mosquiteira/",
+    "description": null,
+    "product_slugs": [
+      "rede-mosquiteira-inox-aisi-304",
+      "rede-mosquiteira-inox-aisi-316",
+      "rede-mosquiteira-inox-brico",
+      "rede-mosquiteira-aluminio",
+      "rede-mosquiteira-aluminio-brico",
+      "rede-mosquiteira-galvanizada",
+      "rede-mosquiteira-latao",
+      "rede-mosquiteira-fibra-anti-fogo",
+      "rede-mosquiteira-fibra-anti-fogo-brico",
+      "rede-mosquiteira-nylon-pvc"
+    ]
+  },
+  {
+    "slug": "arame",
+    "name_pt": "Arame",
+    "url": "https://www.andradinox.pt/categoria-produto/arame/",
+    "description": null,
+    "product_slugs": [
+      "arame-inox-brico",
+      "arame-farpado-plastificado",
+      "arame-farpado-zincado"
+    ]
+  },
+  {
+    "slug": "brico",
+    "name_pt": "Brico",
+    "url": "https://www.andradinox.pt/categoria-produto/brico/",
+    "description": null,
+    "product_slugs": [
+      "rede-mosquiteira-inox-brico",
+      "rede-mosquiteira-aluminio-brico",
+      "rede-mosquiteira-fibra-anti-fogo-brico"
+    ]
+  }
+]

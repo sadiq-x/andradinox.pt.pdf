@@ -1,0 +1,21 @@
+{
+  "name": "andradinox-catalogue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:prototype": "node source/design/scripts/build-prototype.js",
+    "build:full": "node source/design/scripts/build-full.js"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@react-pdf/renderer": "^4.7.0",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
