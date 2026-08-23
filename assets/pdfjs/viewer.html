@@ -9,9 +9,10 @@
     html, body { margin: 0; padding: 0; height: 100%; background: #1a1a1a; }
     #viewerContainer { position: absolute; inset: 0; overflow: auto; }
     .pdfViewer .page { margin: 12px auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); }
-    :is(.linkAnnotation, .buttonWidgetAnnotation.pushButton):not(.hasBorder) > a:hover,
-    .linkAnnotation.hasBorder:hover {
-      background-color: transparent;
+    .annotationLayer :is(.linkAnnotation, .buttonWidgetAnnotation.pushButton):not(.hasBorder) > a:hover,
+    .annotationLayer .linkAnnotation.hasBorder:hover {
+      background-color: transparent !important;
+      opacity: 1 !important;
     }
     #loadError {
       display: none;
