@@ -143,4 +143,4 @@ vite.config.ts.timestamp-*
 .vite/
 
 #Macbook DS Store files
-.DS_Store
+*.DS_Store
