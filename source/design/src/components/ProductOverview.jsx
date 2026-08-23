@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, View, Text, Image, Link, StyleSheet } from '@react-pdf/renderer';
+import { Page, View, Text, Image, StyleSheet } from '@react-pdf/renderer';
 import { PageChrome, CHROME_PAD } from './Chrome.jsx';
 import { SectionHeading, Tag } from './Bits.jsx';
 import { color, type } from '../theme.js';
@@ -54,7 +54,7 @@ export function ProductOverview({ id, bookmark, section, title, products }) {
                 </View>
                 <View style={s.refRow}>
                   <Text style={[s.cardCharLabel, { fontSize: 7 }]}>REF. a confirmar</Text>
-                  <Link src={p.href} style={s.cta}>Ver produto →</Link>
+                  <Text style={s.cta}>Ver produto →</Text>
                 </View>
               </View>
             </View>
