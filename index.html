@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Andradinox</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; background: #1a1a1a; font-family: system-ui, sans-serif; }
+    body { display: flex; flex-direction: column; }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 600; }
+    header a {
+      color: #fff;
+      background: #2563eb;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    header a:hover { background: #1d4ed8; }
+    main { flex: 1; display: flex; }
+    iframe, object {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .fallback {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: #ccc;
+      text-align: center;
+      padding: 40px;
+      width: 100%;
+    }
+    .fallback a {
+      color: #fff;
+      background: #2563eb;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo Andradinox</h1>
+    <a href="output/previews/Andradinox-Prototype-v0.1.pdf" download>Descarregar PDF</a>
+  </header>
+  <main>
+    <object data="output/previews/Andradinox-Prototype-v0.1.pdf" type="application/pdf">
+      <div class="fallback">
+        <p>O seu browser não suporta visualização de PDF.</p>
+        <a href="output/previews/Andradinox-Prototype-v0.1.pdf">Abrir PDF</a>
+      </div>
+    </object>
+  </main>
+</body>
+</html>
