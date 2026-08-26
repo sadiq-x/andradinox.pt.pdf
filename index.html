@@ -2,13 +2,15 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Catálogo Andradinox</title>
+  <link rel="stylesheet" href="assets/pdfjs/web/pdf_viewer.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; background: #1a1a1a; font-family: system-ui, sans-serif; }
     @supports (height: 100dvh) { html, body { height: 100dvh; } }
-    body { display: flex; flex-direction: column; }
+    body { display: flex; flex-direction: column; overflow: hidden; }
+
     header {
       background: #111;
       color: #fff;
@@ -29,13 +31,98 @@
       font-weight: 500;
     }
     header a:hover { background: #1d4ed8; }
-    main { flex: 1; display: flex; }
-    iframe, object {
+
+    /* pdf.js requires its container to be position:absolute, so main is the
+       positioned ancestor that flexes to fill whatever the header leaves. */
+    main { position: relative; flex: 1; min-height: 0; }
+    #viewerContainer {
+      position: absolute;
+      inset: 0;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .pdfViewer .page { margin: 12px auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); }
+
+    /* pdf.js highlights link areas yellow on hover; the rule it ships is nested
+       inside .annotationLayer, so the override has to match that specificity. */
+    .annotationLayer :is(.linkAnnotation, .buttonWidgetAnnotation.pushButton):not(.hasBorder) > a:hover,
+    .annotationLayer .linkAnnotation.hasBorder:hover {
+      background-color: transparent !important;
+      opacity: 1 !important;
+    }
+
+    #zoomControls {
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+      display: flex;
+      align-items: center;
+      gap: 1px;
+      background: #262626;
+      border: 1px solid #3a3a3a;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      z-index: 10;
+    }
+    #zoomControls button {
+      width: 34px;
+      height: 34px;
+      border: none;
+      background: transparent;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    #zoomControls button:hover { background: #3a3a3a; }
+    #zoomLevel {
+      min-width: 46px;
+      text-align: center;
+      color: #ccc;
+      font-size: 12px;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    /* Shown only if pdf.js cannot run in this browser. */
+    #fallback {
+      display: none;
+      position: absolute;
+      inset: 0;
       width: 100%;
       height: 100%;
       border: none;
     }
-    .fallback {
+    #fallbackPanel {
+      display: none;
+      position: absolute;
+      inset: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: #ccc;
+      text-align: center;
+      padding: 40px;
+    }
+    #fallbackPanel a, .noscript-fallback a {
+      color: #fff;
+      background: #2563eb;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    body.fallback-frame #fallback { display: block; }
+    body.fallback-panel #fallbackPanel { display: flex; }
+    body.fallback-frame #viewerContainer,
+    body.fallback-panel #viewerContainer,
+    body.fallback-frame #zoomControls,
+    body.fallback-panel #zoomControls { display: none; }
+
+    .noscript-fallback {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -46,14 +133,7 @@
       padding: 40px;
       width: 100%;
     }
-    .fallback a {
-      color: #fff;
-      background: #2563eb;
-      text-decoration: none;
-      padding: 12px 24px;
-      border-radius: 8px;
-      font-weight: 500;
-    }
+
     @media (max-width: 640px) {
       header {
         display: block;
@@ -62,22 +142,166 @@
       }
       header h1 { font-size: 1rem; margin-bottom: 8px; }
       header a { display: block; padding: 10px 16px; }
+      /* The page is locked to the screen width on mobile, so there is nothing
+         to zoom into and no sideways movement to allow: vertical scroll only. */
+      #zoomControls { display: none; }
+      #viewerContainer { overflow-x: hidden; touch-action: pan-y; }
+      .pdfViewer .page { margin: 8px auto; }
     }
   </style>
+  <script src="assets/pdfjs/build/pdf.mjs" type="module"></script>
+  <script src="assets/pdfjs/web/pdf_viewer.mjs" type="module"></script>
 </head>
 <body>
   <header>
     <h1>Catálogo Andradinox</h1>
     <a href="output/previews/Andradinox-Prototype-v0.1.pdf" download>Descarregar PDF</a>
   </header>
+
   <main>
-    <iframe src="assets/pdfjs/viewer.html"></iframe>
+    <div id="viewerContainer">
+      <div id="viewer" class="pdfViewer"></div>
+    </div>
+    <iframe id="fallback" title="Catálogo Andradinox"></iframe>
+    <div id="fallbackPanel">
+      <p>Toque para abrir o catálogo em PDF.</p>
+      <a id="fallbackLink" href="output/previews/Andradinox-Prototype-v0.1.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+    </div>
     <noscript>
-      <div class="fallback">
+      <div class="noscript-fallback">
         <p>O seu browser não suporta visualização de PDF.</p>
         <a href="output/previews/Andradinox-Prototype-v0.1.pdf">Abrir PDF</a>
       </div>
     </noscript>
   </main>
+
+  <div id="zoomControls">
+    <button id="zoomOut" type="button" aria-label="Reduzir zoom">−</button>
+    <span id="zoomLevel">100%</span>
+    <button id="zoomIn" type="button" aria-label="Ampliar zoom">+</button>
+  </div>
+
+  <!-- Classic script: runs even if the module scripts fail to load or parse,
+       which is the only way to recover in a browser that cannot run pdf.js. -->
+  <script>
+    (function () {
+      var PDF_URL = 'output/previews/Andradinox-Prototype-v0.1.pdf';
+      window.__pdfFileUrl = new URL(PDF_URL, window.location.href).href;
+      window.__pdfReady = false;
+      window.__lastError = null;
+
+      // iOS Safari does not render PDFs embedded in an iframe, so it gets a
+      // link that hands the file to the system PDF viewer instead.
+      var ua = navigator.userAgent;
+      var isIOS = /iPad|iPhone|iPod/.test(ua) ||
+                  (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+
+      window.__activateFallback = function (reason) {
+        if (document.body.className.indexOf('fallback-') !== -1) return;
+        console.warn('pdf.js unavailable, falling back. Reason:', reason);
+        if (isIOS) {
+          document.body.classList.add('fallback-panel');
+        } else {
+          document.getElementById('fallback').src = window.__pdfFileUrl;
+          document.body.classList.add('fallback-frame');
+        }
+      };
+
+      window.addEventListener('error', function (e) {
+        window.__lastError = (e && (e.message || e.type)) || 'error';
+      }, true);
+      window.addEventListener('unhandledrejection', function (e) {
+        window.__lastError = (e && e.reason && (e.reason.message || String(e.reason))) || 'rejection';
+      });
+
+      // If pdf.js never defined its globals, the library itself failed to run.
+      window.addEventListener('load', function () {
+        if (typeof window.pdfjsLib === 'undefined' || typeof window.pdfjsViewer === 'undefined') {
+          window.__activateFallback('pdf.js globals missing (' + (window.__lastError || 'no error reported') + ')');
+        }
+      });
+
+      // Backstop: pdf.js loaded but never finished rendering a page.
+      setTimeout(function () {
+        if (!window.__pdfReady) {
+          window.__activateFallback('timeout (' + (window.__lastError || 'no error reported') + ')');
+        }
+      }, 20000);
+    })();
+  </script>
+
+  <script type="module">
+    const fileUrl = window.__pdfFileUrl;
+    const smallScreen = () => window.matchMedia('(max-width: 640px)').matches;
+    const isSmallScreen = smallScreen();
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      new URL('assets/pdfjs/build/pdf.worker.mjs', window.location.href).href;
+
+    const eventBus = new pdfjsViewer.EventBus();
+    const linkService = new pdfjsViewer.PDFLinkService({
+      eventBus,
+      externalLinkTarget: pdfjsViewer.LinkTarget.BLANK,
+      externalLinkRel: 'noopener noreferrer',
+    });
+
+    const pdfViewer = new pdfjsViewer.PDFViewer({
+      container: document.getElementById('viewerContainer'),
+      eventBus,
+      linkService,
+      // Mobile GPUs cap total canvas memory; keep page canvases well inside it.
+      maxCanvasPixels: isSmallScreen ? 2 ** 21 : 2 ** 22,
+    });
+    linkService.setViewer(pdfViewer);
+
+    // Preferred zoom, but never wider than the screen: on a phone 120% would be
+    // ~2.4x the viewport width and force sideways panning to read. Taking the
+    // smaller of the two means the page always fits and only scrolls vertically.
+    function applyFittedScale() {
+      const preferred = smallScreen() ? 1.2 : 1.4;
+      pdfViewer.currentScaleValue = 'page-width';
+      pdfViewer.currentScale = Math.min(preferred, pdfViewer.currentScale);
+    }
+
+    let userZoomed = false;
+    eventBus.on('pagesinit', applyFittedScale);
+
+    // A rendered page is the only proof pdf.js actually works in this browser.
+    eventBus.on('pagerendered', () => {
+      window.__pdfReady = true;
+    });
+
+    const zoomLevelEl = document.getElementById('zoomLevel');
+    eventBus.on('scalechanging', (evt) => {
+      zoomLevelEl.textContent = Math.round(evt.scale * 100) + '%';
+    });
+    document.getElementById('zoomIn').addEventListener('click', () => {
+      userZoomed = true;
+      pdfViewer.increaseScale();
+    });
+    document.getElementById('zoomOut').addEventListener('click', () => {
+      userZoomed = true;
+      pdfViewer.decreaseScale();
+    });
+
+    // pdf.js only re-measures height on resize, so rotating a phone would leave
+    // the old scale behind and let the page overflow sideways. Re-fit instead,
+    // unless the reader picked their own zoom on a device that offers it.
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        if (!userZoomed || smallScreen()) applyFittedScale();
+      }, 150);
+    });
+
+    try {
+      const pdfDocument = await pdfjsLib.getDocument({ url: fileUrl }).promise;
+      pdfViewer.setDocument(pdfDocument);
+      linkService.setDocument(pdfDocument, null);
+    } catch (err) {
+      window.__activateFallback('getDocument failed: ' + (err && err.message ? err.message : err));
+    }
+  </script>
 </body>
 </html>
