@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Catálogo Andradinox</title>
   <link rel="stylesheet" href="web/pdf_viewer.css" />
   <style>
@@ -14,16 +14,22 @@
       background-color: transparent !important;
       opacity: 1 !important;
     }
-    #loadError {
+    /* Native-PDF fallback, used when pdf.js cannot run in this browser. */
+    #nativeFallback {
       display: none;
-      color: #ccc;
-      font-family: system-ui, sans-serif;
-      padding: 40px;
-      text-align: center;
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
+    body.fallback-active #nativeFallback { display: block; }
+    body.fallback-active #viewerContainer,
+    body.fallback-active #zoomControls { display: none; }
     #zoomControls {
       position: fixed;
-      right: 16px;
+      left: 50%;
+      transform: translateX(-50%);
       bottom: 16px;
       display: flex;
       align-items: center;
@@ -53,7 +59,12 @@
       text-align: center;
       color: #ccc;
       font-size: 12px;
+      -webkit-user-select: none;
       user-select: none;
+    }
+    /* Small screens pinch-to-zoom natively, so the control only takes up space. */
+    @media (max-width: 640px) {
+      #zoomControls { display: none; }
     }
   </style>
   <script src="build/pdf.mjs" type="module"></script>
@@ -68,11 +79,51 @@
     <span id="zoomLevel">100%</span>
     <button id="zoomIn" type="button" aria-label="Aumentar zoom">+</button>
   </div>
-  <p id="loadError">Não foi possível carregar o PDF.</p>
+  <iframe id="nativeFallback" title="Catálogo Andradinox"></iframe>
+
+  <!-- Classic script: runs even if the module scripts below fail to load or parse,
+       which is the only way to recover from a browser that cannot run pdf.js. -->
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var fileParam = params.get('file') || '../../output/previews/Andradinox-Prototype-v0.1.pdf';
+      window.__pdfFileUrl = new URL(fileParam, window.location.href).href;
+      window.__pdfReady = false;
+      window.__lastError = null;
+
+      window.__activateFallback = function (reason) {
+        if (document.body.classList.contains('fallback-active')) return;
+        console.warn('pdf.js unavailable, using native PDF viewer. Reason:', reason);
+        var frame = document.getElementById('nativeFallback');
+        frame.src = window.__pdfFileUrl;
+        document.body.classList.add('fallback-active');
+      };
+
+      window.addEventListener('error', function (e) {
+        window.__lastError = (e && (e.message || e.type)) || 'error';
+      }, true);
+      window.addEventListener('unhandledrejection', function (e) {
+        window.__lastError = (e && e.reason && (e.reason.message || String(e.reason))) || 'rejection';
+      });
+
+      // If pdf.js never defined its globals, the library itself failed to run.
+      window.addEventListener('load', function () {
+        if (typeof window.pdfjsLib === 'undefined' || typeof window.pdfjsViewer === 'undefined') {
+          window.__activateFallback('pdf.js globals missing (' + (window.__lastError || 'no error reported') + ')');
+        }
+      });
+
+      // Backstop: pdf.js loaded but never finished rendering a page.
+      setTimeout(function () {
+        if (!window.__pdfReady) {
+          window.__activateFallback('timeout (' + (window.__lastError || 'no error reported') + ')');
+        }
+      }, 20000);
+    })();
+  </script>
+
   <script type="module">
-    const params = new URLSearchParams(window.location.search);
-    const fileParam = params.get('file') || '../../output/previews/Andradinox-Prototype-v0.1.pdf';
-    const fileUrl = new URL(fileParam, window.location.href).href;
+    const fileUrl = window.__pdfFileUrl;
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = new URL('build/pdf.worker.mjs', window.location.href).href;
 
@@ -90,8 +141,15 @@
     });
     linkService.setViewer(pdfViewer);
 
+    const isSmallScreen = window.matchMedia('(max-width: 640px)').matches;
+
     eventBus.on('pagesinit', () => {
-      pdfViewer.currentScaleValue = 'page-width';
+      pdfViewer.currentScaleValue = isSmallScreen ? '1.2' : '1.4';
+    });
+
+    // A rendered page is the only proof pdf.js actually works in this browser.
+    eventBus.on('pagerendered', () => {
+      window.__pdfReady = true;
     });
 
     const zoomLevelEl = document.getElementById('zoomLevel');
@@ -109,8 +167,7 @@
       pdfViewer.setDocument(pdfDocument);
       linkService.setDocument(pdfDocument, null);
     } catch (err) {
-      document.getElementById('loadError').style.display = 'block';
-      console.error(err);
+      window.__activateFallback('getDocument failed: ' + (err && err.message ? err.message : err));
     }
   </script>
 </body>
